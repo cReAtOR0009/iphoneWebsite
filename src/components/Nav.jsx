@@ -9,7 +9,7 @@ const Nav = () => {
         <img src={appleImg} alt="Apple" width={14} height={18} />
         <div className="flex flex-1 max-sm:hiddden">
           {navLists.map((items) => {
-            return <div key={items} className="px-5 text-sm cursor-pointer text-gray hover:text-white transition-all">{items}</div>;
+            return  <a href='#' key={items} className="px-5 text-sm cursor-pointer text-gray hover:text-white transition-all">{items}</a>;
           })}
         </div>
         <div className="flex items-baseline gap-7 max-sm:justify-end max-sm:flex-1">
